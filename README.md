@@ -1,5 +1,7 @@
 # Agentic System Failure Playbook 🛡️
 
+![Agentic System Failure Playbook](Asset/agentic-banner.png)
+
 A comprehensive guide and collection of engineering patterns for building **reliable, observable, and safe** agentic AI systems.
 
 ---
