@@ -22,8 +22,8 @@ Most agentic AI discussions focus on capability—what an agent *can* do. In pro
 
 - [**failure_taxonomy/**](failure_taxonomy/)  
   Understand failure modes across reasoning, tool usage, and context drift. Includes a minimal agent simulation with policy enforcement.
-- **reversible_autonomy/** *(coming soon)*  
-  Patterns for undoing actions and managing state.
+- [**reversible_autonomy/**](reversible_autonomy/)  
+  Design patterns for safe execution and automated rollback of autonomous actions. Includes an action journal and compensating transaction demo.
 - **decision_traceability/** *(coming soon)*  
   Engineering deep dives into reasoning and action logs.
 - **resilience_testing/** *(coming soon)*  
