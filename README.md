@@ -15,6 +15,18 @@ Most agentic AI discussions focus on capability—what an agent *can* do. In pro
 - **Fail Safely**: Systems should degrade gracefully and support human-in-the-loop escalation.
 - **Observability**: Every decision trace must be logged and auditable.
 - **Reversibility**: Design for compensating transactions and rollback workflows.
+- **Resilience**: Bounded autonomy with circuit breakers and failure budgets.
+
+---
+
+## 🏗️ Defense-in-Depth Architecture
+
+This playbook is organized into four progressive layers of safety engineering:
+
+1. **Failure Taxonomy**: Identifying and blocking known failure modes.
+2. **Reversible Autonomy**: Ensuring every action can be undone or compensated.
+3. **Decision Traceability**: High-fidelity auditing of the reasoning process.
+4. **Resilience Engineering**: Chaos-testing and circuit-breaking for stable operations.
 
 ---
 
@@ -33,11 +45,26 @@ Most agentic AI discussions focus on capability—what an agent *can* do. In pro
 
 ## ▶️ Getting Started
 
-To run the failure taxonomy demo:
+Each module includes its own simulator. You can run them individually:
 
+### 1. Failure Taxonomy
 ```bash
-cd failure_taxonomy
-python simulator.py
+python failure_taxonomy/simulator.py
+```
+
+### 2. Reversible Autonomy
+```bash
+python reversible_autonomy/simulator.py
+```
+
+### 3. Decision Traceability
+```bash
+python decision_traceability/simulator.py
+```
+
+### 4. Resilience Engineering
+```bash
+python resilience_testing/simulator.py
 ```
 
 ---
@@ -50,7 +77,7 @@ We welcome contributions of real-world failure scenarios, containment patterns, 
 
 ## ⭐ Support
 
-If you find this playbook useful, please star the repository to follow updates as new modules are released!
+If you find this playbook useful, please star the repository!
 
 ---
 
