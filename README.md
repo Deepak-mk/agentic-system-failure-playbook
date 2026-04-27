@@ -26,8 +26,8 @@ Most agentic AI discussions focus on capability—what an agent *can* do. In pro
   Design patterns for safe execution and automated rollback of autonomous actions. Includes an action journal and compensating transaction demo.
 - [**decision_traceability/**](decision_traceability/)  
   High-fidelity decision logs and reasoning traces for forensic auditing and observability. Includes a dedicated Decision Trace Engine.
-- **resilience_testing/** *(coming soon)*  
-  Chaos engineering for LLM-based agents.
+- [**resilience_testing/**](resilience_testing/)  
+  Chaos engineering and resilience patterns for AI agents, including circuit breakers and failure budgets.
 
 ---
 
